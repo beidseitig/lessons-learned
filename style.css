@@ -3,7 +3,12 @@
     margin-bottom: 20px;
 }
 
+h3 {
+    margin-left: 10px;
+}
+
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 251, 251);
 }
 
@@ -14,34 +19,36 @@ body {
 
 #titulo {
     text-align: center;
-    padding-top: 80px;
-    height: 80px;
+    padding-top: 30px;
+    height: 100px;
     background-color: green;
     font-family: fantasy;
     color: white;
+    font-size: 50px;
 }
 
 .inicio {
     display: inline-block;
     
 }
+    #minha_foto {
+        width: 200px;
+        margin-left: 20px;
+    }
 
-#minha_foto {
-    width: 200px;
-    margin-left: 20px;
-}
+    #nome {
+        font-size: 50px;
+        vertical-align: top;
+        margin-top: 100px;
+        margin-left: 5%;
+        width: 200px;
+        text-align: left;
+    }
 
-#nome {
-    font-size: 50px;
-    vertical-align: top;
-    margin-top: 100px;
-    margin-left: 5%;
-    width: 200px;
-    text-align: left;
-}
-
-#link_trybe a {
-    color: green;
+.licoes {
+    display: inline;
+    border: 1px solid black;
+    width: 1000px;
 }
 
 #aprendizado {
@@ -57,7 +64,7 @@ body {
 #jornada {
     float: right;
     width: 35%;
-    height: 116px;
+    height: 134px;
     padding: 0 15px;
     background-color: lightcoral;
 }
@@ -65,6 +72,8 @@ body {
         text-align: center;
     }
 
-
+#link_trybe a {
+    color: green;
+}
 
 

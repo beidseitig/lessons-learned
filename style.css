@@ -15,6 +15,7 @@ body {
 #cabecalho {
     top: 0;
     position: fixed;
+    width: 100%;
 }
 
 #titulo {
@@ -25,6 +26,10 @@ body {
     font-family: fantasy;
     color: white;
     font-size: 50px;
+}
+
+#top {
+    margin-top: 12%;
 }
 
 .inicio {
@@ -45,10 +50,16 @@ body {
         text-align: left;
     }
 
-.licoes {
-    display: inline;
-    border: 1px solid black;
-    width: 1000px;
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#tabela {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
 #aprendizado {
@@ -72,8 +83,19 @@ body {
         text-align: center;
     }
 
+#link_trybe{
+    
+}
+
 #link_trybe a {
     color: green;
+}
+
+#rodape {
+    text-align: right;
+    font-family: cursive;
+    margin-right: 15px;
+    margin-top: 50px;
 }
 
 

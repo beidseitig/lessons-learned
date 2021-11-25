@@ -14,15 +14,15 @@ body {
 
 #titulo {
     text-align: center;
-    padding-top: 40px;
-    height: 90px;
+    padding-top: 80px;
+    height: 80px;
     background-color: green;
     font-family: fantasy;
+    color: white;
 }
 
 .inicio {
     display: inline-block;
-    border: 3px solid red;
     
 }
 
@@ -44,11 +44,27 @@ body {
     color: green;
 }
 
-.lado-direito {
-    float: right;
-}
-
-.lado-esquerdo {
+#aprendizado {
     float: left;
+    width: 60%;
+    padding: 0 16px;
+    background-color: lightblue;
 }
+    .lado-esquerdo {
+        text-align: center;
+    }
+
+#jornada {
+    float: right;
+    width: 35%;
+    height: 116px;
+    padding: 0 15px;
+    background-color: lightcoral;
+}
+    .lado-direito {
+        text-align: center;
+    }
+
+
+
 
